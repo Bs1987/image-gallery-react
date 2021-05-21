@@ -1,4 +1,5 @@
 import './App.css';
+import ImageCard from "./ImageCard";
 
 // Beginscherm van applicatie
 // Het is JavaScript, maar sommige delen lijken op HTML syntax
@@ -12,26 +13,30 @@ import './App.css';
 // - [x] Maak een component functie
 // - [x] Die component functie returned JSX
 // - [x] Optioneel: voeg een DIV toe als je component uit meerdere tags bestaat
-// - [] Importeer je component functie in APP (of waar je hem wil gebruiken)
-// - [] Gebruik component functie met JSX syntax
+// - [x] Exporteer je component functie (export default 'functienaam')
+// - [x] Importeer je component functie in APP (of waar je hem wil gebruiken)
+// - [x] Gebruik component functie met JSX syntax
 function App() {
     return (
         <div className="App">
-            <h2>Nature</h2>
-            <img src="
-https://source.unsplash.com/1600x900/?nature,water" alt=""/>
+            <ImageCard />
+            <ImageCard />
+            <ImageCard />
+{/*            <h2>Nature</h2>*/}
+{/*            <img src="*/}
+{/*https://source.unsplash.com/1600x900/?nature,water" alt=""/>*/}
 
-            <h2>Pasta</h2>
-            <img src="
-https://source.unsplash.com/1600x900/?pasta" alt=""/>
+{/*            <h2>Pasta</h2>*/}
+{/*            <img src="*/}
+{/*https://source.unsplash.com/1600x900/?pasta" alt=""/>*/}
 
-            <h2>Travel</h2>
-            <img src="
-https://source.unsplash.com/1600x900/?travel" alt=""/>
+{/*            <h2>Travel</h2>*/}
+{/*            <img src="*/}
+{/*https://source.unsplash.com/1600x900/?travel" alt=""/>*/}
 
-            <h2>Cats</h2>
-            <img src="
-https://source.unsplash.com/1600x900/?cat" alt=""/>
+{/*            <h2>Cats</h2>*/}
+{/*            <img src="*/}
+{/*https://source.unsplash.com/1600x900/?cat" alt=""/>*/}
 
 
 

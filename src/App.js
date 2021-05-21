@@ -1,6 +1,7 @@
 import './App.css';
 import ImageCard from "./ImageCard";
 import PageHeading from "./PageHeading";
+import TextContent from "./TextContent";
 
 // Beginscherm van applicatie
 // Het is JavaScript, maar sommige delen lijken op HTML syntax
@@ -31,6 +32,14 @@ function App() {
             <PageHeading pageTitle={"Image gallery"}/>
             <PageHeading pageTitle={"About"}/>
             <PageHeading pageTitle={"Contact"}/>
+
+            <TextContent>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet animi aperiam cumque deserunt ducimus illo impedit ipsa ipsam labore magnam, maiores quaerat quibusdam quo rem sunt tenetur vel veniam.
+            </TextContent>
+
+            <TextContent>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet animi aperiam cumque deserunt ducimus illo impedit ipsa ipsam labore magnam, maiores quaerat quibusdam quo rem sunt tenetur vel veniam.
+            </TextContent>
 
             <ImageCard subject={"nature"}/>
             <ImageCard subject={"pasta"}/>

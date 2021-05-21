@@ -18,7 +18,7 @@ import ImageCard from "./ImageCard";
 // - [x] Gebruik component functie met JSX syntax
 // 3. Is je component af, maar "gehardcode", alles heeft altijd dezelfde waarde
 //    Gebruik props om het component dynamisch te maken
-// - [] Voeg een attribuut toe in de JSX (Kies zelf een naam)
+// - [x] Voeg een attribuut toe in de JSX (Kies zelf een naam)
 // - [] Geef het attribuut een waarde
 // - [] In de component functie gebruik maken van de "prop" die is doorgegeven
 //      - [] Props toevoegen als parameter van de component functie
@@ -27,9 +27,9 @@ import ImageCard from "./ImageCard";
 function App() {
     return (
         <div className="App">
-            <ImageCard />
-            <ImageCard />
-            <ImageCard />
+            <ImageCard subject={ }/>
+            <ImageCard subject={ }/>
+            <ImageCard subject={ }/>
 {/*            <h2>Nature</h2>*/}
 {/*            <img src="*/}
 {/*https://source.unsplash.com/1600x900/?nature,water" alt=""/>*/}

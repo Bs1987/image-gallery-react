@@ -1,5 +1,4 @@
 function ImageCard(props) {
-    console.log(props);
     return (
         <>
             <h2>{props.subject}</h2>

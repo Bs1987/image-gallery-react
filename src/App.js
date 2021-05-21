@@ -28,7 +28,10 @@ import PageHeading from "./PageHeading";
 function App() {
     return (
         <div className="App">
-            <PageHeading/>
+            <PageHeading pageTitle={"Image gallery"}/>
+            <PageHeading pageTitle={"About"}/>
+            <PageHeading pageTitle={"Contact"}/>
+
             <ImageCard subject={"nature"}/>
             <ImageCard subject={"pasta"}/>
             <ImageCard subject={"cat"}/>

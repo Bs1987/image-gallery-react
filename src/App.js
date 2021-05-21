@@ -27,27 +27,11 @@ import ImageCard from "./ImageCard";
 function App() {
     return (
         <div className="App">
+            <h1>Image Gallery</h1>
             <ImageCard subject={"nature"}/>
             <ImageCard subject={"pasta"}/>
             <ImageCard subject={"cat"}/>
             <ImageCard subject={"bouldering"}/>
-{/*            <h2>Nature</h2>*/}
-{/*            <img src="*/}
-{/*https://source.unsplash.com/1600x900/?nature" alt=""/>*/}
-
-{/*            <h2>Pasta</h2>*/}
-{/*            <img src="*/}
-{/*https://source.unsplash.com/1600x900/?pasta" alt=""/>*/}
-
-{/*            <h2>Travel</h2>*/}
-{/*            <img src="*/}
-{/*https://source.unsplash.com/1600x900/?travel" alt=""/>*/}
-
-{/*            <h2>Cats</h2>*/}
-{/*            <img src="*/}
-{/*https://source.unsplash.com/1600x900/?cat" alt=""/>*/}
-
-
 
         </div>
     );

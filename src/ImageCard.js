@@ -1,9 +1,9 @@
-function ImageCard() {
+function ImageCard(props) {
+    console.log(props);
     return (
         <>
-            <h2>Nature</h2>
-            <img src="
-https://source.unsplash.com/1600x900/?nature" alt=""/>
+            <h2>{props.subject}</h2>
+            <img src={`https://source.unsplash.com/1600x900/?${props.subject}`}/>
         </>
     );
 }

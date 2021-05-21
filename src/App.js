@@ -20,10 +20,10 @@ import ImageCard from "./ImageCard";
 //    Gebruik props om het component dynamisch te maken
 // - [x] Voeg een attribuut toe in de JSX (Kies zelf een naam)
 // - [x] Geef het attribuut een waarde
-// - [] In de component functie gebruik maken van de "prop" die is doorgegeven
-//      - [] Props toevoegen als parameter van de component functie
-//      - [] De juist component eruit halen en gebruiken in je component
-// - [] Interpoleren in JSX
+// - [x] In de component functie gebruik maken van de "prop" die is doorgegeven
+//      - [x] Props toevoegen als parameter van de component functie
+//      - [x] De juist component eruit halen en gebruiken in je component (subject)
+// - [x] Interpoleren in JSX
 function App() {
     return (
         <div className="App">

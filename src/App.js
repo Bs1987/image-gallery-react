@@ -1,5 +1,6 @@
 import './App.css';
 import ImageCard from "./ImageCard";
+import PageHeading from "./PageHeading";
 
 // Beginscherm van applicatie
 // Het is JavaScript, maar sommige delen lijken op HTML syntax
@@ -27,7 +28,7 @@ import ImageCard from "./ImageCard";
 function App() {
     return (
         <div className="App">
-            <h1>Image Gallery</h1>
+            <PageHeading/>
             <ImageCard subject={"nature"}/>
             <ImageCard subject={"pasta"}/>
             <ImageCard subject={"cat"}/>
